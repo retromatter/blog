@@ -19,7 +19,8 @@ author:
 # URL settings (CRUCIAL FIX)
 url: "/" 
 baseurl: ""  # Set to empty for root domain
-permalink: /:title/
+# permalink: /:title/
+permalink: /blog/post/:year/:month/:day/:title/
 
 # Collection setting
 collections:
